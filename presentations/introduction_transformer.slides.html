@@ -7442,6 +7442,7 @@ main {
                     processEnvironments: true
                 },
                 displayAlign: 'center',
+                messageStyle: 'none',
                 CommonHTML: {
                     linebreaks: {
                     automatic: true
@@ -7511,22 +7512,6 @@ main {
 <li>...</li>
 </ul>
 </li>
-</ul>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Language-Models">Language Models<a class="anchor-link" href="#Language-Models">¶</a></h2><ul>
-<li>A language model (LM) provides a probability distribution over tokens given a context</li>
-<li>$ p(word|context) \approx \Phi(context) $</li>
-<li>Old approach: Counting occurrences</li>
-<li>Neural language models: Around since the early 2000s</li>
 </ul>
 </div>
 </div>
@@ -7779,18 +7764,17 @@ main {
 </div>
 </div>
 </div>
-</div></section><section>
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Some-bold-claims">Some bold claims<a class="anchor-link" href="#Some-bold-claims">¶</a></h2><ul>
+<h1 id="Some-Philosophical-Aspects">Some Philosophical Aspects<a class="anchor-link" href="#Some-Philosophical-Aspects">¶</a></h1><ul>
 <li>The neural network is not a blank slate<ul>
-<li>Architectural bias</li>
+<li>Architectural bias? Beyond sequence processing?</li>
 <li>Random initialisation, but which distribution?</li>
-<li>Lottery ticket hypothesis (Frankle &amp; Carbin 2018)</li>
 </ul>
 </li>
 <li>The training is not just gradual<ul>
@@ -7798,6 +7782,34 @@ main {
 </ul>
 </li>
 </ul>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Buckner's-Bold-Claim">Buckner's Bold Claim<a class="anchor-link" href="#Buckner's-Bold-Claim">¶</a></h2><blockquote>
+<p>"[...] while large language models are increasingly being treated as though they should be self-sufficient models of intelligence, they should instead be accorded the status of the human language factuly in the context of human cognitive evolution." (Buckner 2024, pp. 283--284)</p>
+</blockquote>
+<p>I disagree. They are more and less.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div>
+<img alt="No description has been provided for this image" src="img/overlap_llm_lang_faculty.png" width="700"/>
+</div>
+<p>See findings by Michaelov &amp; Levy (2026)</p>
 </div>
 </div>
 </div>
@@ -7809,9 +7821,9 @@ main {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="What-I-have-not-covered">What I have not covered<a class="anchor-link" href="#What-I-have-not-covered">¶</a></h1><ul>
-<li>Prompting</li>
+<li>Prompting (Why does few shot prompting work?)</li>
 <li>Hyperparameter search</li>
-<li>Finetuning</li>
+<li>Fine-tuning</li>
 <li>RLHF</li>
 <li>Multi-modality</li>
 <li>Lots of architectural details: activation, position....</li>
@@ -7828,6 +7840,7 @@ main {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="References">References<a class="anchor-link" href="#References">¶</a></h1><ul>
+<li>Buckner, C. J. (2024). From Deep Learning to Rational Machines: What the History of Philosophy Can Teach Us About the Future of Artifical Intelligence. Oxford University Press.</li>
 <li>Clark, K., Khandelwal, U., Levy, O., &amp; Manning, C. D. (2019). What Does BERT Look at? An Analysis of BERT’s Attention. In T. Linzen, G. Chrupała, Y. Belinkov, &amp; D. Hupkes (Eds.), Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP (pp. 276–286). Association for Computational Linguistics. <a href="https://doi.org/10.18653/v1/W19-4828">https://doi.org/10.18653/v1/W19-4828</a></li>
 <li>Dong, Y., Cordonnier, J.-B., &amp; Loukas, A. (2021). Attention is not all you need: Pure attention loses rank doubly exponentially with depth. Proceedings of the 38th International Conference on Machine Learning, 2793–2803. <a href="https://proceedings.mlr.press/v139/dong21a.html">https://proceedings.mlr.press/v139/dong21a.html</a></li>
 <li>Frankle, J., &amp; Carbin, M. (2018, September 27). The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks. International Conference on Learning Representations. <a href="https://openreview.net/forum?id=rJl-b3RcF7">https://openreview.net/forum?id=rJl-b3RcF7</a></li>
@@ -7844,6 +7857,7 @@ main {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
+<li>Michaelov, J. A., &amp; Levy, R. P. (2026). N-gram-like Language Models Predict Reading Time Best (arXiv:2603.09872). arXiv. <a href="https://doi.org/10.48550/arXiv.2603.09872">https://doi.org/10.48550/arXiv.2603.09872</a></li>
 <li>Pérez, J., Barceló, P., &amp; Marinkovic, J. (2021). Attention is Turing-Complete. Journal of Machine Learning Research, 22(75), 1–35.</li>
 <li>Rogers, A., Kovaleva, O., &amp; Rumshisky, A. (2020). A Primer in BERTology: What We Know About How BERT Works. Transactions of the Association for Computational Linguistics, 8, 842–866. <a href="https://doi.org/10.1162/tacl_a_00349">https://doi.org/10.1162/tacl_a_00349</a></li>
 <li>Shazeer, N. (2020). GLU Variants Improve Transformer (arXiv:2002.05202). arXiv. <a href="https://doi.org/10.48550/arXiv.2002.05202">https://doi.org/10.48550/arXiv.2002.05202</a></li>

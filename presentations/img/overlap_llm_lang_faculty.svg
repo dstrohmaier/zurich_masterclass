@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="74.057907mm"
+   height="56.55867mm"
+   viewBox="0 0 74.057907 56.55867"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="overlap_llm_lang_faculty.png"
+   inkscape:export-xdpi="3000"
+   inkscape:export-ydpi="3000"
+   inkscape:version="1.4 (1:1.4+202410161351+e7c3feb100)"
+   sodipodi:docname="overlap_llm_lang_faculty.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.5282058"
+     inkscape:cx="36.64428"
+     inkscape:cy="188.12912"
+     inkscape:window-width="2212"
+     inkscape:window-height="1435"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient6"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop6" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop7" />
+    </linearGradient>
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6"
+       id="linearGradient7"
+       x1="175.11227"
+       y1="55.354183"
+       x2="202.21805"
+       y2="55.354183"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-10.107096,-44.140898)">
+    <circle
+       style="fill:#006cff;fill-opacity:0.0666667;stroke:#333333;stroke-width:0.353;stroke-dasharray:none;stroke-opacity:0.557868"
+       id="path1"
+       cx="32.197445"
+       cy="66.231247"
+       r="21.913849" />
+    <circle
+       style="fill:#a0ff00;fill-opacity:0.0666667;stroke:#333333;stroke-width:0.353;stroke-dasharray:none;stroke-opacity:0.557868"
+       id="path1-5"
+       cx="62.074654"
+       cy="66.231247"
+       r="21.913849" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:1.1;font-family:'Clear Sans';-inkscape-font-specification:'Clear Sans';text-align:start;letter-spacing:0.00264583px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;white-space:pre;inline-size:31.7109;display:inline;fill:#1a1a1a;stroke:#333333;stroke-width:0.35269"
+       x="170.3288"
+       y="54.35614"
+       id="text2"
+       transform="translate(-119.64072,11.875107)"><tspan
+         x="170.3288"
+         y="54.35614"
+         id="tspan4"><tspan
+           dx="0 0 0 0 0 -0.26458308 0.26458368 0 0 0 0 0 0 0 -0.26458284"
+           style="text-align:end;text-anchor:end;stroke:none"
+           id="tspan1">Human language </tspan></tspan><tspan
+         x="170.3288"
+         y="58.236698"
+         id="tspan7"><tspan
+           style="text-align:end;text-anchor:end;stroke:none"
+           id="tspan6">faculty</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:1.1;font-family:'Clear Sans';-inkscape-font-specification:'Clear Sans';text-align:start;letter-spacing:0.00264583px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:start;white-space:pre;inline-size:31.7109;display:inline;fill:none;fill-opacity:0.0666667;stroke:#333333;stroke-width:0.353;stroke-dasharray:none"
+       x="130.19917"
+       y="54.35614"
+       id="text2-2"
+       transform="translate(-118.32811,11.875107)"><tspan
+         x="130.19917"
+         y="54.35614"
+         id="tspan9"><tspan
+           dx="0 0 0 -0.26458308 0.2645832"
+           style="-inkscape-font-specification:'Clear Sans, Normal';fill:#000000;fill-opacity:1;stroke:none"
+           id="tspan8">LLM abilities</tspan></tspan></text>
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
+       d="M 42.84831,92.980833 47.745258,71.740312"
+       id="path3"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1.1;font-family:'Amiri Quran';-inkscape-font-specification:'Amiri Quran';text-align:end;letter-spacing:0.00264583px;word-spacing:0.264583px;writing-mode:lr-tb;direction:ltr;text-anchor:end;white-space:pre;inline-size:22.1795;display:inline;fill:none;fill-opacity:0.0666667;stroke:#333333;stroke-width:0.153;stroke-dasharray:none;stroke-opacity:1"
+       x="43.530918"
+       y="95.569588"
+       id="text4"
+       transform="translate(10.041732,0.51939995)"><tspan
+         x="43.530918"
+         y="95.569588"
+         id="tspan11"><tspan
+           dx="0 0 0 0 0 0 -0.26458308"
+           style="font-family:'Clear Sans';-inkscape-font-specification:'Clear Sans, Normal';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+           id="tspan10">n-gram</tspan><tspan
+           y="95.569588"
+           id="tspan12"> </tspan></tspan><tspan
+         x="43.530918"
+         y="99.499763"
+         id="tspan14"><tspan
+           style="font-family:'Clear Sans';-inkscape-font-specification:'Clear Sans, Normal';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+           id="tspan13">prediction</tspan></tspan></text>
+  </g>
+</svg>
