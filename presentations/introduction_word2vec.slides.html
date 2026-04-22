@@ -7415,7 +7415,6 @@ main {
                     processEnvironments: true
                 },
                 displayAlign: 'center',
-                messageStyle: 'none',
                 CommonHTML: {
                     linebreaks: {
                     automatic: true
@@ -7448,9 +7447,20 @@ main {
 <blockquote>
 <p>The <em>placing</em> of a <em>text</em> as a constituent in a context of situation contributes
 to the statement of meaning since situations are set up to recognize <em>use</em>. As
-Wittgenstein says, "the meaning of words lies in their use".</p>
+Wittgenstein says, "the meaning of words lies in their use" (Firth 1957, p. 11)</p>
 </blockquote>
-<p>~ Firth (1957, p. 11)</p>
+</div>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=869776ae-21d4-4e5a-83b7-99a5eab52a32">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Organisational-note">Organisational note<a class="anchor-link" href="#Organisational-note">¶</a></h2><p>Run colab: <a href="https://colab.research.google.com/drive/1E3_Q_UXs1i331ZT1ZRc3HrIVNcHk9mJA">https://colab.research.google.com/drive/1E3_Q_UXs1i331ZT1ZRc3HrIVNcHk9mJA</a></p>
+<p>Shortened URL: <a href="https://tinyurl.com/5n729wrj">https://tinyurl.com/5n729wrj</a></p>
 </div>
 </div>
 </div>
@@ -7481,9 +7491,8 @@ Wittgenstein says, "the meaning of words lies in their use".</p>
 <li>word2vec trains on context to create representations</li>
 </ul>
 <blockquote>
-<p>You shall know a word by the company it keeps</p>
+<p>"You shall know a word by the company it keeps" (Firth 1957, p. 11)</p>
 </blockquote>
-<p>-- Firth (1957, p. 11)</p>
 <ul>
 <li>Representations are continuous</li>
 <li>Providing notion of similarity</li>
@@ -7500,8 +7509,8 @@ Wittgenstein says, "the meaning of words lies in their use".</p>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Properties-of-word2vec">Properties of word2vec<a class="anchor-link" href="#Properties-of-word2vec">¶</a></h3><ul>
 <li>Neural network</li>
-<li>Extremly simple (not deep)</li>
-<li>Useful</li>
+<li>Extremly simple (not deep): 2 vectors for every word</li>
+<li>Useful, e.g. sentiment analysis of movie reviews</li>
 </ul>
 </div>
 </div>
@@ -7543,6 +7552,7 @@ Wittgenstein says, "the meaning of words lies in their use".</p>
 <li>Neural language models: Around since the early 2000s</li>
 <li>word2vec is a set of simple, neural language modelling algorithms</li>
 </ul>
+<br/>
 <table>
 <thead>
 <tr>
@@ -7646,29 +7656,30 @@ Wittgenstein says, "the meaning of words lies in their use".</p>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Remarks-on-the-Offset-Method">Remarks on the Offset Method<a class="anchor-link" href="#Remarks-on-the-Offset-Method">¶</a></h2><ul>
 <li>Why? Trained on a seemingly unrelated task</li>
-<li>Closest vector $\textrightarrow$ cosine similarity / angle</li>
+<li>Closest vector (cosine similarity / angle)</li>
 <li>Directions are meaningful</li>
 <li>What does it tell us about how the model works?<ul>
-<li>Does an encoded bias matter?</li>
+<li>Does an encoded bias matter? Can be misleading, see Nissim et al. (2020)</li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 </div>
-</div>
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9c51b23c-0336-47b5-ab1e-067b408d937e">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="The-Questions-for-Philosophers">The Questions for Philosophers<a class="anchor-link" href="#The-Questions-for-Philosophers">¶</a></h1><ul>
+<h1 id="Questions-for-Philosophers">Questions for Philosophers<a class="anchor-link" href="#Questions-for-Philosophers">¶</a></h1><ul>
 <li>Does the vector offset method provide a way of performing inference?</li>
 <li>Does this capture compositionality?<ul>
 <li>The meaning of the whole is a function of the meaning of its parts</li>
 </ul>
 </li>
+<li>Words with similar meaning. What notion of similarity?</li>
 </ul>
 </div>
 </div>
@@ -7699,21 +7710,8 @@ Wittgenstein says, "the meaning of words lies in their use".</p>
 <li>Firth, J. R. (1957). A Synopsis of Linguistic Theory 1930-1955. In Studies in Linguistic Analysis (pp. 1–32). Philological Society.</li>
 <li>Mikolov, T., Chen, K., Corrado, G., &amp; Dean, J. (2013). Efficient Estimation of Word Representations in Vector Space. ICLR Workshop. <a href="http://arxiv.org/abs/1301.3781">http://arxiv.org/abs/1301.3781</a></li>
 <li>Mikolov, T., Yih, W., &amp; Zweig, G. (2013). Linguistic Regularities in Continuous Space Word Representations. Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 746–751. <a href="https://www.aclweb.org/anthology/N13-1090">https://www.aclweb.org/anthology/N13-1090</a></li>
+<li>Nissim, M., van Noord, R., &amp; van der Goot, R. (2020). Fair Is Better than Sensational: Man Is to Doctor as Woman Is to Doctor. Computational Linguistics, 46(2), 487–497. <a href="https://doi.org/10.1162/coli_a_00379">https://doi.org/10.1162/coli_a_00379</a></li>
 </ul>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=afe0e2ad-7d3e-435a-b8c9-d607d09b8ce3">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-</div>
 </div>
 </div>
 </div>
