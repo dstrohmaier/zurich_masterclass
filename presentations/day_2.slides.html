@@ -5,7 +5,7 @@
 <meta content="chrome=1" http-equiv="X-UA-Compatible"/>
 <meta content="yes" name="apple-mobile-web-app-capable"/>
 <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
-<title>do_llms_understand slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
+<title>day_2 slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script><script type="module">
   import mermaid from 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.7.0/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true });
 </script>
@@ -7434,211 +7434,82 @@ main {
 <main>
 <div class="reveal">
 <div class="slides"><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8f9e426c-8337-4772-babb-cd6d579c7206">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=30986f3f-4ab6-4910-b3ad-c1bd71c71516">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Do-LLMs-Understand-Meaning?">Do LLMs Understand Meaning?<a class="anchor-link" href="#Do-LLMs-Understand-Meaning?">¶</a></h1><blockquote>
-<p>"Wenn ein Löwe sprechen könnte, wir könnten ihn nicht verstehen" (Wittgenstein, Philosophische Untersuchungen II, xi)</p>
-</blockquote>
+<h1 id="Day-2">Day 2<a class="anchor-link" href="#Day-2">¶</a></h1><p>David Strohmaier, ALTA Institute, University of Cambridge</p>
+<p>ds858@cam.ac.uk</p>
 </div>
 </div>
 </div>
 </div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=68d46543-4822-4d16-be0d-e5a66d3419c5">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=14cec7b9-25a4-4585-95f1-1833b25d02d7">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>"Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data" by Bender &amp; Koller (2020)</li>
-<li>Early discussion of whether LMs understand meaning (GPT-2, BERT)</li>
-<li>Computational linguistics side of NLP strikes back</li>
-<li>Famous for its octopus thought experiment</li>
+<h2 id="Plan-for-the-Day:-First-Half">Plan for the Day: First Half<a class="anchor-link" href="#Plan-for-the-Day:-First-Half">¶</a></h2><ul>
+<li>Addendum to yesterday</li>
+<li>(Re-)reading the papers</li>
+<li>Bender &amp; Koller (2020)<ul>
+<li>Short presentation by me</li>
+<li>Group discussion</li>
 </ul>
-<div>
-<img alt="No description has been provided for this image" src="img/octopus_processed.png" width="400"/>
-</div>
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1d2b77dc-a2e4-4557-89c2-3e763acc6ccb">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Structure-of-the-Paper">Structure of the Paper<a class="anchor-link" href="#Structure-of-the-Paper">¶</a></h2><ol>
-<li>Proposes a "working definition" of <em>meaning</em></li>
-<li>Argue that meaning cannot be learned from form alone</li>
-<li>Provide octopus thought experiment (and others)</li>
-<li>Positioning within theory (Climbing the <em>right</em> hill?)</li>
-<li>React to some possible responses</li>
-</ol>
+</li>
+</ul>
+<p><strong>Lunch Break</strong></p>
 </div>
 </div>
 </div>
 </div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2e881a0b-1427-4624-9c23-0624a8b52a2a">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e320a647-ff9e-4d15-9ab4-d25792676004">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Definition-of-Meaning">Definition of Meaning<a class="anchor-link" href="#Definition-of-Meaning">¶</a></h2><ul>
-<li>Gricean approach</li>
-<li>Occasion meaning as a relation: $ M \subseteq E \times I $</li>
-<li>Conventional linguistic system: $ C \subseteq E \times S $</li>
-</ul>
-<br/>
-<br/>
-<table>
-<thead>
-<tr>
-<th>Symbol</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>$E$</td>
-<td>linguistic expressions</td>
-</tr>
-<tr>
-<td>$I$</td>
-<td>communicative intents</td>
-</tr>
-<tr>
-<td>$S$</td>
-<td>standing meanings (abstract)</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a046513d-5ba5-4f3d-8ebe-1f6440d1b791">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="The-Octopus-Thought-Experiment">The Octopus Thought Experiment<a class="anchor-link" href="#The-Octopus-Thought-Experiment">¶</a></h1><div>
-<img alt="No description has been provided for this image" src="img/octopus_processed.png" width="600"/>
-</div>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=245431b9-0317-4077-a610-cf58a242e9aa">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Key-Properties-of-this-Critique">Key Properties of this Critique<a class="anchor-link" href="#Key-Properties-of-this-Critique">¶</a></h2><ul>
-<li>Targets understanding<ul>
-<li>Can the octopus generate meaningful responses?</li>
+<h2 id="Plan-for-the-Day:-Second-Half:">Plan for the Day: Second Half:<a class="anchor-link" href="#Plan-for-the-Day:-Second-Half:">¶</a></h2><ul>
+<li>Titus (2024)<ul>
+<li>Short presentation by me</li>
+<li>Group discussion</li>
 </ul>
 </li>
-<li>Empiricist</li>
-<li>Not the right <em>data</em></li>
-</ul>
-<blockquote>
-<p>"[...] if the training data is only form form, there is no sufficient signal to learn the relation $M$ between the that form and the non-linguistic intent of human language users, nor $C$ between form and the standing meaning the linguistic systems assigns to each form." (Bender &amp; Koller 2020, p. 5187)</p>
-</blockquote>
-</div>
-</div>
-</div>
-</div></section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b5622325-b51f-4910-b1c3-353ddf56b2d3">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Responses">Responses<a class="anchor-link" href="#Responses">¶</a></h2><ul>
-<li>What are the limits of form? ¯\_(ツ)_/¯</li>
-<li>Octopus picture: ... 127 000 000 146 362 143 011 000 000 000 000 000 000 000 040 216 ...<ul>
-<li>What about octopus DNA?</li>
-</ul>
-</li>
-<li>Can intentions be serialised?<ul>
-<li>Does a system need to have intentions to be able to understand meaning?</li>
-</ul>
-</li>
-<li>Does any of this apply to multi-modal models?</li>
+<li>Discussion by Philipp</li>
+<li>Open debate (add questions!)</li>
 </ul>
 </div>
 </div>
 </div>
 </div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=cfe001eb-2099-42a6-9564-0603fb515774">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=289b7450-4830-4486-8011-f6456244d7b5">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Open-Issues">Open Issues<a class="anchor-link" href="#Open-Issues">¶</a></h2><ul>
-<li>What is the role of meaning to understanding?</li>
-<li>Just about right data or about interaction?</li>
-<li>What role do the referents play?<ul>
-<li>Intentions</li>
-<li>Standing meanings (intensions?) refer</li>
-</ul>
-</li>
+<h2 id="Addendum:-Explanations-and-Visualisation-of-Transformer-LLMs">Addendum: Explanations and Visualisation of Transformer LLMs<a class="anchor-link" href="#Addendum:-Explanations-and-Visualisation-of-Transformer-LLMs">¶</a></h2><ul>
+<li>Another explanation of attentions by 3brown1blue: <a href="https://youtu.be/eMlx5fFNoYc">https://youtu.be/eMlx5fFNoYc</a></li>
+<li>Blog post with illustrations of key components of LLMs: <a href="https://jalammar.github.io/illustrated-transformer/">https://jalammar.github.io/illustrated-transformer/</a></li>
+<li>Interactive visualisation: <a href="https://bbycroft.net/llm">https://bbycroft.net/llm</a></li>
 </ul>
 </div>
 </div>
 </div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a00ac163-4392-4765-8354-bc6cba85c2c5">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=cf5420f9-e411-4e33-9864-5d9735c5dba1">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="An-Internalist-Take-on-Bender-&amp;-Koller">An Internalist Take on Bender &amp; Koller<a class="anchor-link" href="#An-Internalist-Take-on-Bender-&amp;-Koller">¶</a></h2><ul>
-<li>Some sets of weights correspond to models that understands</li>
-<li>How do we rule out that a model ends up with these weights?<ul>
-<li>Improbable not impossible</li>
-<li>Performance criteria (see section 8.2)</li>
-</ul>
-</li>
-</ul>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span> 
+</pre></div>
 </div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=3cec9c29-5d20-48b1-b905-4689241cff3c">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Connections-to-later-discussions">Connections to later discussions<a class="anchor-link" href="#Connections-to-later-discussions">¶</a></h2><ul>
-<li>Other accounts of meaning (later)</li>
-<li>Grounding (we get to later)</li>
-<li>Reconsider the argument in light of the platonic representation hypothesis</li>
-</ul>
-</div>
-</div>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b5ff6068-cac8-4007-8b6d-a534c0929e8e">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="References">References<a class="anchor-link" href="#References">¶</a></h2><ul>
-<li>Bender, E. M., &amp; Koller, A. (2020). Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data. Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, 5185–5198. <a href="https://doi.org/10.18653/v1/2020.acl-main.463">https://doi.org/10.18653/v1/2020.acl-main.463</a></li>
-</ul>
 </div>
 </div>
 </div>
